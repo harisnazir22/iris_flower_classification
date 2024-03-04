@@ -30,4 +30,4 @@ def predict():
     return render_template('result.html', predicted_class=predicted_class)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host = '0.0.0.0',port =700)
