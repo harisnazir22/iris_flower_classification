@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/flowers.jpg'); /* Path to your background image */
+    background-size: cover;
+}
+
+/* Form container styles */
+.form-container {
+    max-width: 500px;
+    margin: 70px auto 0;
+    margin-left: 30px; /* Adjust this value to shift the form to the left */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form input styles */
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button styles */
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Result container styles */
+.result-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Result text styles */
+.result-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Go back link styles */
+.go-back {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #007bff; /* Blue */
+    text-decoration: none;
+}
+
